@@ -20,10 +20,8 @@ import com.thesun4sky.springblog.jwt.JwtUtil;
 import com.thesun4sky.springblog.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 
-/**
- * 1. 인증설정
- * WebSecurityConfig > jwtUtil > UsernamePasswordAuthenticationFilter > SecurityFilterChain > 요청별 인증수행
- */
+// WebSecurityConfig > jwtUtil > UsernamePasswordAuthenticationFilter > SecurityFilterChain > 요청별 인증수행
+
 @Configuration
 @EnableWebSecurity // Spring Security 지원을 가능하게 함
 @RequiredArgsConstructor
